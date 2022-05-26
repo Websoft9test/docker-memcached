@@ -1,7 +1,7 @@
 {
   "name": "memcached",
   "trademark": "Memcached",
-  "installpath": "/data/db/memcached",
+  "installpath": "/data/apps/memcached",
   "compose_file": "docker-compose.yml",
   "env_file": ".env",
   "fork_url": "https://github.com/docker-library/memcached",

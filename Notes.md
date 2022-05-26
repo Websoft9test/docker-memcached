@@ -1,6 +1,12 @@
-## About
+# Memcached
 
-This repository is forked from ONLYOFFICE/Docker-CommunityServer, we have the following modifications are provided
+Test memcached
 
-* replace README.md
-* add README-zh.md, CHANGELOG.md, Note.md, License.md, docker-compose.yml,.env, src, .github folder
+```
+$ telnet localhost 11211
+Trying ::1...
+Connected to localhost.
+Escape character is '^]'.
+
+$quit
+```

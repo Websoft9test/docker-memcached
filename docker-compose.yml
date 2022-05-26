@@ -1,8 +1,10 @@
+# image: https://hub.docker.com/_/memcached
+
 version: '3.8'
 services:
   memcached:
     image: memcached:${APP_VERSION}
-    container_name: ${APP_CONTAINER_NAME}
+    container_name: ${APP_NAME}
     restart: always
     ports:
      - '${APP_PORT}:11211'
@@ -12,4 +14,4 @@ services:
 
 networks:
   default:
-      name: ${APP_NETWORK}
+      name: ${APP_NAME}
